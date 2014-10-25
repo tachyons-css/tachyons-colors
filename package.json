@@ -1,10 +1,13 @@
 {
   "name": "tachyons-colors",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "homepage": "http://mrmrs.io/tachyons-colors",
   "description": "Performance based sass module.",
   "keywords": [
     "oocss",
+    "colors",
+    "perf",
+    "frontend",
     "sass",
     "css",
     "rwd",
