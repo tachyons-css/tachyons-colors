@@ -1,6 +1,6 @@
 {
   "name": "tachyons-colors",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "style": "colors.css",
   "homepage": "http://mrmrs.io/tachyons-colors",
   "description": "Performance based sass module.",
