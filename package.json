@@ -1,6 +1,7 @@
 {
   "name": "tachyons-colors",
   "version": "1.2.1",
+  "style": "colors.css",
   "homepage": "http://mrmrs.io/tachyons-colors",
   "description": "Performance based sass module.",
   "keywords": [
@@ -37,5 +38,8 @@
     "gulp-sass": "^1.1.0",
     "gulp-size": "^1.1.0",
     "gulp-watch": "^2.0.0"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
