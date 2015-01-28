@@ -1,10 +1,19 @@
 /*
 
-COLORS
+   Tachyons
+   COLOR VARIABLES
 
- */
+   - Grayscale
+   - Blues
+   - Teals
+   - Green
+   - Reds
+   - Oranges
+   - Yellows
+   - Pink
+   - Purple
 
-/* variables */
+*/
 
 :root {
   --black: #000;
@@ -25,24 +34,6 @@ COLORS
   --dark-blue: #0045a1;
   --darkest-blue: #002f86;
 
-  --yellow: #fff93c;
-  --light-yellow: #fffa60;
-  --lightest-yellow: #fffca6;
-  --dark-yellow: #e2c100;
-  --darkest-yellow: #c4a600;
-
-  --orange: #FF851B;
-  --light-orange: #ffa942;
-  --lightest-orange: #ffc55d;
-  --dark-orange: #d05e00;
-  --darkest-orange: #b14400;
-
-  --red: #d82c2c;
-  --light-red: #f94f44;
-  --lightest-red: #ff6c5c;
-  --dark-red: #bd001a;
-  --darkest-red: #9d0003;
-
   --teal: #27bfa8;
   --light-teal: #4eddc5;
   --lightest-teal: #6ffae0;
@@ -54,6 +45,24 @@ COLORS
   --lightest-green: #75d0a4;
   --dark-green: #1e7f58;
   --darkest-green: #006540;
+
+  --red: #d82c2c;
+  --light-red: #f94f44;
+  --lightest-red: #ff6c5c;
+  --dark-red: #bd001a;
+  --darkest-red: #9d0003;
+
+  --orange: #FF851B;
+  --light-orange: #ffa942;
+  --lightest-orange: #ffc55d;
+  --dark-orange: #d05e00;
+  --darkest-orange: #b14400;
+
+  --yellow: #fff93c;
+  --light-yellow: #fffa60;
+  --lightest-yellow: #fffca6;
+  --dark-yellow: #e2c100;
+  --darkest-yellow: #c4a600;
 
   --pink: #F012BE;
   --light-pink: #ff57e8;
