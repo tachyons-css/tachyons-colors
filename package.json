@@ -2,7 +2,7 @@
   "name": "tachyons-colors",
   "version": "3.0.1",
   "style": "tachyons-colors.css",
-  "homepage": "http://mrmrs.io/tachyons-colors",
+  "homepage": "http://github.com/mrmrs/tachyons-colors",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
