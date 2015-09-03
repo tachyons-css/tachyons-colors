@@ -1,51 +1,22 @@
-# TACHYONS-COLORS
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-colors
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   COLORS
-
-*/
-
-/* variables */
-
-$black: #000;
-$near-black: #111;
-$dark-gray:#333;
-$mid-gray:#666;
-$gray: #888;
-$silver: #999;
-$light-silver: #aaa;
-$light-gray: #ccc;
-$near-white: #eee;
-$white: #fff;
-
-$aqua:  #7FDBFF;
-$blue:  #0074D9;
-$navy:  #001F3F;
-$teal:  #39CCCC;
-$green: #2ECC40;
-$olive: #3D9970;
-$lime:  #01FF70;
-
-$yellow:  #FFDC00;
-$orange:  #FF851B;
-$red:     #FF4136;
-$fuchsia: #F012BE;
-$purple:  #B10DC9;
-$maroon:  #85144B;
+<%= srcCSS %>
 ```
 
 ## Author
