@@ -1,6 +1,6 @@
 {
   "name": "tachyons-colors",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "style": "tachyons-colors.css",
   "homepage": "http://github.com/tachyons-css/tachyons-colors",
   "description": "Performance based css module.",
