@@ -16,6 +16,7 @@ module.exports = function(css) {
   // Convert all color values to hex strings
   colors = colors.map(function(color) {
     var hex
+    var lightness
     try {
       hex = Color(color).hexString()
       return hex

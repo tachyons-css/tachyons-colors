@@ -13,7 +13,6 @@
 
 */
 /* Text colors */
-.black-100 { color: rgba( 0, 0, 0, 1 ); }
 .black-90 { color: rgba( 0, 0, 0, .9 ); }
 .black-80 { color: rgba( 0, 0, 0, .8 ); }
 .black-70 { color: rgba( 0, 0, 0, .7 ); }
@@ -25,7 +24,6 @@
 .black-10 { color: rgba( 0, 0, 0, .1 ); }
 .black-05 { color: rgba( 0, 0, 0, .05 ); }
 
-.bg-black-100 { background-color: rgba( 0, 0, 0, 1 ); }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
@@ -37,7 +35,6 @@
 .bg-black-10 { background-color: rgba( 0, 0, 0, .1 ); }
 .bg-black-05 { background-color: rgba( 0, 0, 0, .05 ); }
 
-.white-100 { color: rgba( 255, 255, 255, 1 ); }
 .white-90 { color: rgba( 255, 255, 255, .9 ); }
 .white-80 { color: rgba( 255, 255, 255, .8 ); }
 .white-70 { color: rgba( 255, 255, 255, .7 ); }
@@ -48,7 +45,6 @@
 .white-20 { color: rgba( 255, 255, 255, .2 ); }
 .white-10 { color: rgba( 255, 255, 255, .1 ); }
 
-.bg-white-100 { background-color: rgba( 255, 255, 255, 1 ); }
 .bg-white-90 { background-color: rgba( 255, 255, 255, .9 ); }
 .bg-white-80 { background-color: rgba( 255, 255, 255, .8 ); }
 .bg-white-70 { background-color: rgba( 255, 255, 255, .7 ); }
@@ -59,7 +55,8 @@
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
 
-.black { color: #111; }
+.black { color: #000; }
+.near-black { color: #111; }
 .dark-gray { color: #333; }
 .mid-gray { color: #555; }
 .gray { color: #777; }

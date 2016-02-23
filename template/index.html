@@ -8,18 +8,18 @@
 <body class="">
   <header class="pal">
     <h1>Color Palette Docs</h1>
-    <ul class="list cf pln">
+    <ul class="list cf pln mw8">
       <% colors.map(renderColor) %>
     </ul>
   </header>
   <% function renderColor(color) { %>
-    <li class="fl w-50 w-25-ns f3 b mbm">
+    <li class="fl w-50 w-25-ns f5 b mbm prl border-box">
       <div style="background-color:<%= color %>"
-        class="pvl"></div>
+        class="pvl mbxs"></div>
       <%= color %>
     </li>
   <% } %>
- <h2 class="pal">Combinations</h2>
+ <h2 class="pal">Accessible Combinations</h2>
   <ul class="list pln cf">
     <% combos.map(renderCombo) %>
   </ul>
