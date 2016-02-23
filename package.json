@@ -20,9 +20,14 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "tachyons src/tachyons-colors.css > css/tachyons-colors.css && tachyons src/tachyons-colors.css --minify > css/tachyons-colors.min.css && tachyons src/tachyons-colors.css --generate-docs --package=../../package.json > readme.md"
+    "start": "tachyons src/tachyons-colors.css > css/tachyons-colors.css && tachyons src/tachyons-colors.css --minify > css/tachyons-colors.min.css && tachyons src/tachyons-colors.css --generate-docs --package=../../package.json > readme.md",
+    "docs": "node build.js"
   },
   "devDependencies": {
+    "color": "^0.11.1",
+    "colorable": "^1.0.5",
+    "lodash": "^4.5.1",
+    "postcss": "^5.0.16",
     "tachyons-cli": "^0.3.3"
   }
 }

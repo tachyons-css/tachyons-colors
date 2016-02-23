@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Color Palette Docs Demo</title>
+  <link rel="stylesheet" href="http://tachyons.io/css/tachyons.min.css">
+</head>
+<body class="">
+  <header class="pal">
+    <h1>Color Palette Docs</h1>
+    <ul class="list cf pln">
+      <% colors.map(renderColor) %>
+    </ul>
+  </header>
+  <% function renderColor(color) { %>
+    <li class="fl w-50 w-25-ns f3 b mbm">
+      <div style="background-color:<%= color %>"
+        class="pvl"></div>
+      <%= color %>
+    </li>
+  <% } %>
+ <h2 class="pal">Combinations</h2>
+  <ul class="list pln cf">
+    <% combos.map(renderCombo) %>
+  </ul>
+  <% function renderCombo(combo) { %>
+    <li class="pam pal-m paxl-l fl w-50 w-25-l border-box"
+      style="color:<%= combo.pairing %>;background-color:<%= combo.hex %>">
+      <div class="f1 b">
+        Aa
+      </div>
+      <div class="f5">
+        <%= combo.pairing %>
+        <br>
+        <%= combo.hex %>
+        <br>
+        <%= combo.contrast.toFixed(2) %>
+      </div>
+    </li>
+  <% } %>
+</body>
+</html>
