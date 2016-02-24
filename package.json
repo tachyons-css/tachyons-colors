@@ -1,10 +1,16 @@
 {
   "name": "tachyons-colors",
   "version": "5.1.0",
-  "style": "tachyons-colors.css",
+  "style": "src/tachyons-colors.css",
   "homepage": "http://github.com/tachyons-css/tachyons-colors",
-  "description": "Performance based css module.",
-  "keywords": [],
+  "description": "Default CSS color variables for Tachyons",
+  "keywords": [
+    "postcss",
+    "tachyons",
+    "color",
+    "design",
+    "css"
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/tachyons-css/tachyons-colors.git"
