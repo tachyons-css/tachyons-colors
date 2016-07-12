@@ -1,10 +1,10 @@
-# tachyons-colors 3.1.0
+# tachyons-colors 5.2.1
 
-Performance based css module.
+Default CSS color variables for Tachyons
 
 #### Stats
 
-119 | 0 | 0
+92 | 0 | 0
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,16 +61,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    Tachyons
    COLOR VARIABLES
 
-   - Grayscale
-   - Blues
-   - Teals
-   - Green
-   - Reds
-   - Oranges
-   - Yellows
-   - Pink
-   - Purple
-
+   Grayscale
+   - Solids
+   - Transparencies
 */
 ```
 
