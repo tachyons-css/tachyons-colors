@@ -2,6 +2,7 @@
   "name": "tachyons-colors",
   "version": "5.3.2",
   "style": "src/tachyons-colors.css",
+  "main": "src/tachyons-colors.css",
   "homepage": "http://github.com/tachyons-css/tachyons-colors",
   "description": "Default CSS color variables for Tachyons",
   "keywords": [
