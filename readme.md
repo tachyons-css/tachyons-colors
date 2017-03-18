@@ -1,5 +1,14 @@
 # tachyons-colors 5.2.4
 
+NOTE:
+To update `tachyons-colors-variables.scss`, run `npm run build:sass`.
+
+Then commit the updated file.
+
+This may not be necessary once this package is published to npm.
+
+----------------------------------------------
+
 Default CSS color variables for Tachyons
 
 #### Stats
