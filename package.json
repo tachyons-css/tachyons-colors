@@ -28,7 +28,7 @@
   "license": "ISC",
   "scripts": {
     "start": "npm run build:watch",
-    "build:docs": "tachyons src/tachyons-colors.css --generate-docs --package=../../package.json > readme.md",
+    "build:docs": "tachyons src/tachyons-colors.css --generate-docs --preserve-variables --package=../../package.json > readme.md",
     "build": "npm run build:docs",
     "build:watch": "watch 'npm run build' ./src"
   },
